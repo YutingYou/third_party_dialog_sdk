@@ -1,0 +1,50 @@
+LICENSES
+
+NAME                    LICENSE FILE PATH                       LICENSE TYPE    COPYRIGHT                       COMMENTS
+-------------------------------------------------------------------------------------------------------------------------------------------
+SDK core and                                                    Dialog          Dialog Semiconductor            Licensed under the relevant
+applications                                                    proprietary                                     Dialog SLA
+-------------------------------------------------------------------------------------------------------------------------------------------
+Dialog Haptics          sdk\middleware\haptics\                 Dialog          Dialog Semiconductor            Licensed under the relevant
+algorithm library       README_haptics_lib.md                   proprietary                                     Dialog SLA
+-------------------------------------------------------------------------------------------------------------------------------------------
+Dialog Haptic           sdk\middleware\haptics\                 Dialog          Dialog Semiconductor            Licensed under the relevant
+Waveform Memory Decoder README_wm_decoder.md                    proprietary                                     Dialog SLA
+-------------------------------------------------------------------------------------------------------------------------------------------
+ARM                     sdk\bsp\arm_license.txt                 BSD 3           ARM LIMITED                     Contained in file headers
+                                                                                                                where applicable
+-------------------------------------------------------------------------------------------------------------------------------------------
+libsodium               utilities\libbo_crypto\                 ISC             Frank Denis and                 Contained in file headers
+                        third_party_crypto\libsodium\LICENSE                    contributors                    where applicable
+-------------------------------------------------------------------------------------------------------------------------------------------
+mbedtls                 utilities\libbo_crypto\                 Apache License  ARM LIMITED                     Contained in file headers
+                        third_party_crypto\mbedtls\LICENSE      Version 2.0                                     where applicable
+-------------------------------------------------------------------------------------------------------------------------------------------
+uECC                    utilities\libbo_crypto\                 BSD 2           Kenneth MacKay                  Contained in file headers
+                        third_party_crypto\uECC\LICENSE                                                         where applicable
+-------------------------------------------------------------------------------------------------------------------------------------------
+BLE stack                                                       Third Party     Third Party                     Licensed under the relevant
+                                                                proprietary                                     Dialog SLA
+-------------------------------------------------------------------------------------------------------------------------------------------
+FreeRTOS v10.0.1      sdk\free_rtos\license.txt               MIT             Amazon.com, Inc.                www.freertos.org
+                                                                                or its affiliates
+-------------------------------------------------------------------------------------------------------------------------------------------
+SEGGER software         sdk\middleware\segger_tools\            BSD 3           SEGGER Microcontroller          Contained in file headers
+                        segger_license.txt                                      GmbH & Co. KG                   where applicable
+-------------------------------------------------------------------------------------------------------------------------------------------
+Analog Devices          projects\dk_apps\features\snc_test\     Modified BSD-4  Analog Devices, Inc.            Contained in file headers
+                        snc_demo\drivers\adxl362\ad_license.txt                                                 where applicable
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+This software includes both proprietary and open source components. The proprietary components may only be used after execution of the
+relevant Dialog Semiconductor Licensing Agreement. If you have not executed such an agreement you are not authorised to use this software.
+All open source components constitute a separate delivery and are licensed according to the applicable terms of their respective open source
+licenses. All open source software is delivered "AS IS" with no warranties. While Dialog Semiconductor seeks to provide complete and
+accurate licensing information with regard to each open source package, Dialog Semiconductor does not warrant or represent that the
+licensing information is complete or error-free. Certain open source licenses require that source code is made available under certain 
+conditions. Please contact bluetooth.support@diasemi.com for any source code requests, as well as for any
+licensing inquiries with respect to the proprietary components.
+
+Release Version:	10.0.10.118 Full
+
+Approved by Legal: 	Yes

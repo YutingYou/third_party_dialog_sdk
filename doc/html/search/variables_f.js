@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['o_5fsz',['o_sz',['../structcrypto__ec__params__t.html#a7dcfe9f19d444f991cc326e5f8ccd616',1,'crypto_ec_params_t']]],
+  ['offset',['offset',['../structble__evt__gattc__read__completed__t.html#a1e8eb4fb5d0b008b59d917df854642a1',1,'ble_evt_gattc_read_completed_t::offset()'],['../structble__evt__gatts__read__req__t.html#a40a52941e44e26f95ed72157f0a5c29a',1,'ble_evt_gatts_read_req_t::offset()'],['../structble__evt__gatts__write__req__t.html#a2bd805d4eac67161370978d8760fb737',1,'ble_evt_gatts_write_req_t::offset()']]],
+  ['oneshot',['oneshot',['../structtimer__config.html#aad499ddb87fb846b19ebf20b8260233d',1,'timer_config']]],
+  ['operation',['operation',['../structble__evt__gattc__write__completed__t.html#a9e4a51c88fcf7e04c30ded2ebfd3962a',1,'ble_evt_gattc_write_completed_t']]],
+  ['operation_5fmode',['operation_mode',['../structhw__smotor__cfg__t.html#ae2e02243b60de2de7db0e29ca72ba422',1,'hw_smotor_cfg_t']]],
+  ['opt_5fspeed',['opt_speed',['../structad__iso7816__driver__conf__t.html#af540b05ecb296f2f84e26c02bab26b5f',1,'ad_iso7816_driver_conf_t']]],
+  ['os_5fsemph',['os_semph',['../structsnc__cm33__mutex__t.html#a15d6048e406c437bd11409b0199ce5e6',1,'snc_cm33_mutex_t']]],
+  ['otpc_5fmode_5freg',['OTPC_MODE_REG',['../struct_o_t_p_c___type.html#a1018bf487c884f4149d06497255bf524',1,'OTPC_Type']]],
+  ['otpc_5fpaddr_5freg',['OTPC_PADDR_REG',['../struct_o_t_p_c___type.html#a71b461a61142b87efe1a8bf96dac8cf8',1,'OTPC_Type']]],
+  ['otpc_5fpword_5freg',['OTPC_PWORD_REG',['../struct_o_t_p_c___type.html#abe732c9f377f4a54ec2980dac14636f1',1,'OTPC_Type']]],
+  ['otpc_5fstat_5freg',['OTPC_STAT_REG',['../struct_o_t_p_c___type.html#a877f729c31799199fea8ce132882b47d',1,'OTPC_Type']]],
+  ['otpc_5ftim1_5freg',['OTPC_TIM1_REG',['../struct_o_t_p_c___type.html#ad4e2e24eb8e1fe9b3364c26732c03334',1,'OTPC_Type']]],
+  ['otpc_5ftim2_5freg',['OTPC_TIM2_REG',['../struct_o_t_p_c___type.html#ae53ee387850ea137384337cc7925b28a',1,'OTPC_Type']]],
+  ['out0_5fsig',['out0_sig',['../structhw__smotor__pg__cfg__t.html#a542e674e79be91e0562e6961755507a4',1,'hw_smotor_pg_cfg_t']]],
+  ['out1_5fsig',['out1_sig',['../structhw__smotor__pg__cfg__t.html#a00e85e0f9dd44cda458edadae230ed4a',1,'hw_smotor_pg_cfg_t']]],
+  ['out2_5fsig',['out2_sig',['../structhw__smotor__pg__cfg__t.html#a1bc461827bac604d4d8e377d300d7c18',1,'hw_smotor_pg_cfg_t']]],
+  ['out3_5fsig',['out3_sig',['../structhw__smotor__pg__cfg__t.html#afa6024a015b525f82082f4d3822eb511',1,'hw_smotor_pg_cfg_t']]],
+  ['over_5fsampling',['over_sampling',['../structsdadc__config.html#a15d187352343cf94cb64e61a7b4a9952',1,'sdadc_config']]],
+  ['oversampling',['oversampling',['../structgpadc__config.html#abad69a784728443420835fdae81b796b',1,'gpadc_config']]],
+  ['ovp_5fcomparator_5fsettling_5ftime',['ovp_comparator_settling_time',['../structhw__charger__fine__tuning__settings__t.html#a28eeab6970956f20817fc5e570206e80',1,'hw_charger_fine_tuning_settings_t']]],
+  ['ovp_5flevel',['ovp_level',['../structhw__charger__charging__profile__t.html#a5c7e3a8b430d5bdf02664828666368e8',1,'hw_charger_charging_profile_t']]],
+  ['own_5faddr',['own_addr',['../structble__evt__gap__connected__t.html#acaeb97b94ce0146dfe2dd40ab8e86688',1,'ble_evt_gap_connected_t::own_addr()'],['../structble__dev__params__tag.html#a05ab2392fe5b9f5cdfca65f757d576ae',1,'ble_dev_params_tag::own_addr()']]]
+];

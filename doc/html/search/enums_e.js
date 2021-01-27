@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['scps_5fclient_5fcap_5ft',['scps_client_cap_t',['../group___b_l_e___c_l_i___s_c_p_s.html#ga2573f189024480390fbcee6895b3ebf6',1,'scps_client.h']]],
+  ['scps_5fclient_5fevent_5ft',['scps_client_event_t',['../group___b_l_e___c_l_i___s_c_p_s.html#ga0f9d65b7eebb25e6c7481f1f4dc9a722',1,'scps_client.h']]],
+  ['senis_5fbase_5faddress',['SENIS_BASE_ADDRESS',['../group___m_i_d___s_n_c.html#ga44d2f797f44163281d66cd4f222af660',1,'snc.h']]],
+  ['senis_5fcond_5ftype',['SENIS_COND_TYPE',['../group___s_n_c___s_e_n_i_s.html#ga1dbc824a6e59ee9f9a9408bf20a5025e',1,'SeNIS.h']]],
+  ['senis_5fflag_5ftype',['SENIS_FLAG_TYPE',['../group___m_i_d___s_n_c.html#ga32add44c48b23a3f4654c48c53001eb8',1,'snc.h']]],
+  ['senis_5fopcode_5ftype',['SENIS_OPCODE_TYPE',['../group___m_i_d___s_n_c.html#gac477e3443aa0f823df3bfc840e02b543',1,'snc.h']]],
+  ['snc_5fhw_5fi2c_5faccess_5fflags',['SNC_HW_I2C_ACCESS_FLAGS',['../group___s_n_c___h_w___i2_c.html#gaa1abc692f522418b3ebef7cc659f0ff3',1,'snc_hw_i2c.h']]],
+  ['snc_5fqueue_5felement_5fsize',['SNC_QUEUE_ELEMENT_SIZE',['../group___m_i_d___s_n_c.html#ga310a014eef6d7e959677e571066640a3',1,'snc.h']]],
+  ['snc_5fucode_5fblock_5fcmd',['SNC_UCODE_BLOCK_CMD',['../group___m_i_d___s_n_c.html#gaf11f6fcc39906f84e8ba139fdef27333',1,'snc.h']]],
+  ['snc_5fucode_5fblock_5fflag',['SNC_UCODE_BLOCK_FLAG',['../group___m_i_d___s_n_c.html#ga5ff9a869364583a10b322384ec22c2ed',1,'snc.h']]],
+  ['snc_5fucode_5ftype',['SNC_UCODE_TYPE',['../group___m_i_d___s_n_c.html#gaaff65b4d055cbf8677712c752b7eb452',1,'snc.h']]],
+  ['sps_5fflow_5fcontrol_5ft',['sps_flow_control_t',['../group___b_l_e___s_e_r___s_p_s.html#ga3be7abe8a80b450a0c2437bf3111b293',1,'sps.h']]],
+  ['suota_5factive_5fimg_5ft',['suota_active_img_t',['../group___b_l_e___s_e_r___s_u_o_t_a.html#ga2626a7614b880b34400e6ed20bb7c8d3',1,'dlg_suota.h']]],
+  ['suota_5fapp_5fstatus_5ft',['suota_app_status_t',['../group___b_l_e___s_e_r___s_u_o_t_a.html#ga589512c1a9928f491de912ff92b93385',1,'dlg_suota.h']]],
+  ['sys_5faudio_5fmgr_5fdevice',['SYS_AUDIO_MGR_DEVICE',['../group___s_y_s___a_u_d_i_o___m_a_n_a_g_e_r.html#ga6c654ed5187b1417ad4be75d9a7858c0',1,'sys_audio_mgr.h']]],
+  ['sys_5faudio_5fmgr_5fmode',['SYS_AUDIO_MGR_MODE',['../group___s_y_s___a_u_d_i_o___m_a_n_a_g_e_r.html#ga5c59f13c74fc2f99bc5023eef09f4e51',1,'sys_audio_mgr.h']]],
+  ['sys_5fclk_5fis_5ftype',['sys_clk_is_type',['../group___c_l_o_c_k___t_y_p_e_s.html#gae5d1ec2909f7ec5f81a42045fed3294d',1,'hw_clk_da1469x.h']]],
+  ['sys_5ftcs_5fdomain',['SYS_TCS_DOMAIN',['../group___s_y_s___t_c_s___h_a_n_d_l_e_r.html#ga092489c0bdf2a36a270b34588cc54ad2',1,'sys_tcs_da1469x.h']]],
+  ['sys_5ftcs_5fgid',['SYS_TCS_GID',['../group___s_y_s___t_c_s___h_a_n_d_l_e_r.html#ga4f6e79774f9c92966a53e27b468de612',1,'sys_tcs_da1469x.h']]],
+  ['sys_5ftcs_5ftype',['SYS_TCS_TYPE',['../group___s_y_s___t_c_s___h_a_n_d_l_e_r.html#ga5dc0da5cb6a3e0b4dc69ea8a80ae9f66',1,'sys_tcs_da1469x.h']]],
+  ['sysclk_5ftype',['sysclk_type',['../group___h_w___c_l_k.html#ga80b42bde28ce2d446fe9e1895a11c5b2',1,'hw_clk_da1469x.h']]]
+];

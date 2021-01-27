@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['scps_5fccc_5fchanged_5fcb_5ft',['scps_ccc_changed_cb_t',['../group___b_l_e___s_e_r___s_c_p_s.html#ga645ed6b328f4ba8bfe5add52ee2d8487',1,'scps.h']]],
+  ['scps_5fclient_5fget_5fevent_5fstate_5fcompleted_5fcb_5ft',['scps_client_get_event_state_completed_cb_t',['../group___b_l_e___c_l_i___s_c_p_s.html#ga16d97a9024de4be0e92cf57d58b32320',1,'scps_client.h']]],
+  ['scps_5fclient_5frefresh_5fnotif_5fcb_5ft',['scps_client_refresh_notif_cb_t',['../group___b_l_e___c_l_i___s_c_p_s.html#ga8d966973ddcde5bfe2946f0f5782e814',1,'scps_client.h']]],
+  ['scps_5fclient_5fset_5fevent_5fstate_5fcompleted_5fcb_5ft',['scps_client_set_event_state_completed_cb_t',['../group___b_l_e___c_l_i___s_c_p_s.html#ga1a622657fd304809e46ef69b420a2740',1,'scps_client.h']]],
+  ['scps_5fdisconnected_5fcb_5ft',['scps_disconnected_cb_t',['../group___b_l_e___s_e_r___s_c_p_s.html#ga2890ee41f8cb4499376a35300c608162',1,'scps.h']]],
+  ['scps_5fscan_5fupdated_5fcb_5ft',['scps_scan_updated_cb_t',['../group___b_l_e___s_e_r___s_c_p_s.html#ga83ff9f3827d9aac60619bc7867d8d130',1,'scps.h']]],
+  ['serialize_5fcb_5ft',['serialize_cb_t',['../group___b_l_e___c_l_i___g_a_t_t.html#ga0d845e2affbfebeb0e28f4aba7f220a1',1,'ble_client.h']]],
+  ['smart_5fdrive_5fflags',['smart_drive_flags',['../group___s_m_a_r_t_d_r_i_v_e.html#ga16a331e53fe006931428a5f8bd55b3bb',1,'smart_drive.h']]],
+  ['smart_5fdrive_5fparams',['smart_drive_params',['../group___s_m_a_r_t_d_r_i_v_e.html#ga5aa79e7e29e615c8cb05f024e08cb1bb',1,'smart_drive.h']]],
+  ['snc_5fhw_5fsys_5ftimestamp_5ft',['snc_hw_sys_timestamp_t',['../group___s_n_c___s_y_s.html#ga90355d0578ef5a6603e35271e4e40bf7',1,'snc_hw_sys.h']]],
+  ['snc_5fi2c_5fcontroller_5fconf_5ft',['snc_i2c_controller_conf_t',['../group___s_n_c___h_w___i2_c.html#ga07bbd60ac763f8ef7be4b7a1b90a084d',1,'snc_hw_i2c.h']]],
+  ['snc_5fi2c_5fdriver_5fconf_5ft',['snc_i2c_driver_conf_t',['../group___s_n_c___h_w___i2_c.html#ga1b19050e2d5297ad2e8254131e34b2b5',1,'snc_hw_i2c.h']]],
+  ['snc_5fi2c_5fio_5fconf_5ft',['snc_i2c_io_conf_t',['../group___s_n_c___h_w___i2_c.html#gad05d10fc97cf79c6523526433d6c91f4',1,'snc_hw_i2c.h']]],
+  ['snc_5fqueue_5ft',['snc_queue_t',['../group___m_i_d___s_n_c.html#ga3c536010a83380b8be98c967334a73c1',1,'snc.h']]],
+  ['snc_5fspi_5fcontroller_5fconf_5ft',['snc_spi_controller_conf_t',['../group___s_n_c___h_w___s_p_i.html#ga09f4eafdeb058da0a69118ab9374e660',1,'snc_hw_spi.h']]],
+  ['snc_5fspi_5fdriver_5fconf_5ft',['snc_spi_driver_conf_t',['../group___s_n_c___h_w___s_p_i.html#ga63dd35f8d6d7e2c5d10b2ef680f9753a',1,'snc_hw_spi.h']]],
+  ['snc_5fspi_5fio_5fconf_5ft',['snc_spi_io_conf_t',['../group___s_n_c___h_w___s_p_i.html#ga7122b7c29e6c7c431d690c6601116e6d',1,'snc_hw_spi.h']]],
+  ['snc_5fucode_5fcontext_5ft',['snc_ucode_context_t',['../group___m_i_d___s_n_c.html#gaae875dcec058243c3fd2a3db82491390',1,'snc.h']]],
+  ['sys_5faudio_5fmgr_5fbuffer_5fready_5fcb',['sys_audio_mgr_buffer_ready_cb',['../group___s_y_s___a_u_d_i_o___m_a_n_a_g_e_r.html#ga86aa3b2191c4d225d768d54b42a2c161',1,'sys_audio_mgr.h']]],
+  ['sys_5fclk_5fis_5ft',['sys_clk_is_t',['../group___c_l_o_c_k___t_y_p_e_s.html#ga7d189ebdc922142673a4b04acc125c44',1,'hw_clk_da1469x.h']]],
+  ['sys_5fclk_5ft',['sys_clk_t',['../group___h_w___c_l_k.html#ga42297fa8f8149da6ac66c67b57a3704e',1,'hw_clk_da1469x.h']]],
+  ['sys_5ftcs_5fcustom_5fvalues_5fcb',['sys_tcs_custom_values_cb',['../group___s_y_s___t_c_s___h_a_n_d_l_e_r.html#ga8bc42873dba14088093bb19d5c9e8057',1,'sys_tcs_da1469x.h']]]
+];

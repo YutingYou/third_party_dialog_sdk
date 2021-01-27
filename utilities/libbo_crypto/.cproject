@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728" moduleId="org.eclipse.cdt.core.settings" name="Release_static_win32">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/libbo_crypto"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/libbo_crypto/Release_static_win32"/>
+						<entry flags="NONE" kind="libraryFile" name="bo_crypto" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="Static version of library for windows" id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728" name="Release_static_win32" parent="cdt.managedbuild.config.gnu.so.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.base.385485341" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.674410529" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder arguments="--silent" buildPath="${workspace_loc:/libbo_crypto}/Release_static_win32" command="make" id="cdt.managedbuild.builder.gnu.cross.1383487124" keepEnvironmentInBuildfile="false" name="Gnu Make Builder"/>
+							<tool command="gcc" id="cdt.managedbuild.tool.gnu.assembler.mingw.base.372525166" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.flags.302547218" name="Assembler flags" superClass="gnu.both.asm.option.flags" useByScannerDiscovery="false" value="-c -std=gnu99 -include libsodium_config.h" valueType="string"/>
+								<option id="gnu.both.asm.option.include.paths.1264417644" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.850789789" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.425528904" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.1469793470" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.1598032411" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.optimization.level.751265825" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.768899258" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<option id="gnu.c.compiler.option.include.paths.2095294196" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/mbedtls/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.2001438941" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.269295013" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.144864480" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.dialect.std.793708997" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.files.1900928202" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="libsodium_config.h"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.other.143445958" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1454680236" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.1101626410" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.2120115549" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728.1656526016" name="hmac_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/hmac_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.457009361">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.457009361" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723">
+							<option id="gnu.c.compiler.option.misc.other.522378472" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1907699422" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728.1773333936" name="entropy.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/entropy.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.964053885">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.964053885" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723">
+							<option id="gnu.c.compiler.option.misc.other.738935680" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.340678490" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728.330220561" name="ctr_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/ctr_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.46456778">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.46456778" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723">
+							<option id="gnu.c.compiler.option.misc.other.1132932616" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1566160390" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728.1972441131" name="md.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/md.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.823432047">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.823432047" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723">
+							<option id="gnu.c.compiler.option.misc.other.296742118" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1272576548" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728.95355986" name="utils.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/utils.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.107810008">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.107810008" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723">
+							<option id="gnu.c.compiler.option.misc.other.1454277716" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1634293295" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728.2000271816" name="core.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/core.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.51714829">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723.51714829" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723">
+							<option id="gnu.c.compiler.option.misc.other.1401238137" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.653359611" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.so.debug.360188983">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.debug.360188983" moduleId="org.eclipse.cdt.core.settings" name="Debug_dynamic_linux">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/libbo_crypto"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/libbo_crypto/Debug"/>
+						<entry flags="NONE" kind="libraryFile" name="bo_crypto" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="so" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="Dynamic version of the library for linux" id="cdt.managedbuild.config.gnu.so.debug.360188983" name="Debug_dynamic_linux" parent="cdt.managedbuild.config.gnu.so.debug" postbuildStep="install -s &quot;${ProjDirPath}/${ConfigName}/${BuildArtifactFileName}&quot; &quot;${ProjDirPath}/../../binaries&quot;">
+					<folderInfo id="cdt.managedbuild.config.gnu.so.debug.360188983." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.debug.1832435514" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.debug.1739097377" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.debug"/>
+							<builder arguments="--silent" buildPath="${workspace_loc:/libbo_crypto}/Debug" command="make" id="cdt.managedbuild.target.gnu.builder.so.debug.409847654" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="cdt.managedbuild.target.gnu.builder.so.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1836059379" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.78329792" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug">
+								<option id="gnu.cpp.compiler.so.debug.option.optimization.level.1490930553" name="Optimization Level" superClass="gnu.cpp.compiler.so.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.so.debug.option.debugging.level.312625669" name="Debug Level" superClass="gnu.cpp.compiler.so.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.so.debug.option.optimization.level.582290618" name="Optimization Level" superClass="gnu.c.compiler.so.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.c.compiler.so.debug.option.debugging.level.157475301" name="Debug Level" superClass="gnu.c.compiler.so.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1511754226" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/mbedtls/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.1642177042" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.pic.1665399199" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.312021620" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.files.879959798" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="libsodium_config.h"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.other.1100914835" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1729021861" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.debug.1346759084" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.debug">
+								<option defaultValue="true" id="gnu.c.link.so.debug.option.shared.1677634861" name="Shared (-shared)" superClass="gnu.c.link.so.debug.option.shared" useByScannerDiscovery="false" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1189772305" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+								<outputType id="cdt.managedbuild.tool.gnu.c.linker.so.debug.output.1228178794" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.c.linker.so.debug.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.2048785215" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.debug">
+								<option defaultValue="true" id="gnu.cpp.link.so.debug.option.shared.1150240965" name="Shared (-shared)" superClass="gnu.cpp.link.so.debug.option.shared" valueType="boolean"/>
+							</tool>
+							<tool command="gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="cdt.managedbuild.tool.gnu.assembler.so.debug.2131026528" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.debug">
+								<option id="gnu.both.asm.option.include.paths.2115560068" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option id="gnu.both.asm.option.flags.1084674952" name="Assembler flags" superClass="gnu.both.asm.option.flags" useByScannerDiscovery="false" value="-c -std=gnu99 -include libsodium_config.h" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2085013089" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.2110999474" name="hmac_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/hmac_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.927411836">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.927411836" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288">
+							<option id="gnu.c.compiler.option.misc.other.1455104785" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1664147497" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.466536934" name="entropy.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/entropy.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.96512270">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.96512270" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288">
+							<option id="gnu.c.compiler.option.misc.other.1959491320" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1292953895" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.484432126" name="ctr_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/ctr_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.496544940">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.496544940" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288">
+							<option id="gnu.c.compiler.option.misc.other.1085919460" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.966433209" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1047014492" name="md.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/md.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.1218055957">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.1218055957" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288">
+							<option id="gnu.c.compiler.option.misc.other.595118635" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1912666450" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1967019703" name="utils.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/utils.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.9576684">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.9576684" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288">
+							<option id="gnu.c.compiler.option.misc.other.971053189" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1990858332" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1182443978" name="core.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/core.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.1955088942">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288.1955088942" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288">
+							<option id="gnu.c.compiler.option.misc.other.1808329528" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1280318995" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="packages"/>
+			<storageModule moduleId="ilg.gnumcueclipse.managedbuild.packs"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.so.release.259141153">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.release.259141153" moduleId="org.eclipse.cdt.core.settings" name="Release_dynamic_linux">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/libbo_crypto"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/libbo_crypto/Release"/>
+						<entry flags="NONE" kind="libraryFile" name="bo_crypto" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="so" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="Dynamic version of the library for linux" id="cdt.managedbuild.config.gnu.so.release.259141153" name="Release_dynamic_linux" parent="cdt.managedbuild.config.gnu.so.release" postbuildStep="install -s &quot;${ProjDirPath}/${ConfigName}/${BuildArtifactFileName}&quot; &quot;${ProjDirPath}/../../binaries&quot;">
+					<folderInfo id="cdt.managedbuild.config.gnu.so.release.259141153." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.release.601149447" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.release.1335715775" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.release"/>
+							<builder arguments="--silent" buildPath="${workspace_loc:/libbo_crypto}/Release" command="make" id="cdt.managedbuild.target.gnu.builder.so.release.1866172871" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="cdt.managedbuild.target.gnu.builder.so.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.742135769" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.release.75240939" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.release">
+								<option id="gnu.cpp.compiler.so.release.option.optimization.level.1056617501" name="Optimization Level" superClass="gnu.cpp.compiler.so.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.so.release.option.debugging.level.2074233548" name="Debug Level" superClass="gnu.cpp.compiler.so.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.so.release.option.optimization.level.200966870" name="Optimization Level" superClass="gnu.c.compiler.so.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.so.release.option.debugging.level.494915715" name="Debug Level" superClass="gnu.c.compiler.so.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.470750194" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/mbedtls/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.353913072" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.pic.960386619" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.46704578" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.files.1391095922" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="libsodium_config.h"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.other.1785848387" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.957476282" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.release.1767435561" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.release">
+								<option defaultValue="true" id="gnu.c.link.so.release.option.shared.377917297" name="Shared (-shared)" superClass="gnu.c.link.so.release.option.shared" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1117040380" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+								<outputType id="cdt.managedbuild.tool.gnu.c.linker.so.release.output.2030608192" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.c.linker.so.release.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.release.1135972479" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.release">
+								<option defaultValue="true" id="gnu.cpp.link.so.release.option.shared.1877184459" name="Shared (-shared)" superClass="gnu.cpp.link.so.release.option.shared" valueType="boolean"/>
+							</tool>
+							<tool command="gcc" id="cdt.managedbuild.tool.gnu.assembler.so.release.632306175" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.release">
+								<option id="gnu.both.asm.option.include.paths.1577795078" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option id="gnu.both.asm.option.flags.1846038312" name="Assembler flags" superClass="gnu.both.asm.option.flags" value="-c -std=gnu99 -include libsodium_config.h" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.272840806" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.286828020" name="hmac_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/hmac_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.1370278807">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.1370278807" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943">
+							<option id="gnu.c.compiler.option.misc.other.1791606939" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.152692889" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1204541083" name="entropy.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/entropy.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.1310247535">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.1310247535" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943">
+							<option id="gnu.c.compiler.option.misc.other.1065687805" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1848214412" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.2106635834" name="ctr_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/ctr_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.315453789">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.315453789" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943">
+							<option id="gnu.c.compiler.option.misc.other.240815883" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1703068728" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.743988712" name="md.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/md.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.1110044299">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.1110044299" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943">
+							<option id="gnu.c.compiler.option.misc.other.799937234" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1929327364" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.735041021" name="utils.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/utils.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.1860979534">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.1860979534" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943">
+							<option id="gnu.c.compiler.option.misc.other.389780942" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.341729034" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1311255135" name="core.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/core.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.1114694519">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943.1114694519" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943">
+							<option id="gnu.c.compiler.option.misc.other.1624852523" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1682757215" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620" moduleId="org.eclipse.cdt.core.settings" name="Debug_static_linux">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/libbo_crypto"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/libbo_crypto/Debug_static"/>
+						<entry flags="NONE" kind="libraryFile" name="bo_crypto" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="Static version of library for linux" id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620" name="Debug_static_linux" parent="cdt.managedbuild.config.gnu.so.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.debug.992137184" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.debug.2123805131" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.debug"/>
+							<builder arguments="--silent" buildPath="${workspace_loc:/libbo_crypto}/Debug_static" command="make" id="cdt.managedbuild.target.gnu.builder.so.debug.686418534" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="cdt.managedbuild.target.gnu.builder.so.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1156074144" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.1033137763" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.484785387" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug">
+								<option id="gnu.cpp.compiler.so.debug.option.optimization.level.2134244874" name="Optimization Level" superClass="gnu.cpp.compiler.so.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.so.debug.option.debugging.level.1551466897" name="Debug Level" superClass="gnu.cpp.compiler.so.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool command="gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.so.debug.option.optimization.level.90691911" name="Optimization Level" superClass="gnu.c.compiler.so.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.so.debug.option.debugging.level.1868087807" name="Debug Level" superClass="gnu.c.compiler.so.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1154047852" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/mbedtls/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.1981720859" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.pic.860224058" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.164980352" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.files.1377069119" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="libsodium_config.h"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.other.191522982" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1747791476" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.debug.361652716" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.debug">
+								<option defaultValue="true" id="gnu.c.link.so.debug.option.shared.287540743" name="Shared (-shared)" superClass="gnu.c.link.so.debug.option.shared" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.143422763" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.1710392970" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.debug">
+								<option defaultValue="true" id="gnu.cpp.link.so.debug.option.shared.2136012586" name="Shared (-shared)" superClass="gnu.cpp.link.so.debug.option.shared" valueType="boolean"/>
+							</tool>
+							<tool command="gcc" id="cdt.managedbuild.tool.gnu.assembler.so.debug.1007762358" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.debug">
+								<option id="gnu.both.asm.option.include.paths.1035900444" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option id="gnu.both.asm.option.flags.1582329505" name="Assembler flags" superClass="gnu.both.asm.option.flags" value="-c -std=gnu99 -include libsodium_config.h" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2065850776" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.399591972" name="hmac_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/hmac_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.456379786">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.456379786" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349">
+							<option id="gnu.c.compiler.option.misc.other.1459505318" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1155305199" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.606108177" name="entropy.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/entropy.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.805327721">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.805327721" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349">
+							<option id="gnu.c.compiler.option.misc.other.186367392" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1076768152" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.896125763" name="ctr_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/ctr_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.300983452">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.300983452" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349">
+							<option id="gnu.c.compiler.option.misc.other.1554516573" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1157114555" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.1476399742" name="md.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/md.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.64170855">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.64170855" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349">
+							<option id="gnu.c.compiler.option.misc.other.182544609" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.476924480" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.2082847396" name="utils.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/utils.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.465325428">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.465325428" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349">
+							<option id="gnu.c.compiler.option.misc.other.1343213338" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1432408053" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.662062414" name="core.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/core.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.436129951">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349.436129951" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349">
+							<option id="gnu.c.compiler.option.misc.other.1785433547" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1635218115" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="packages"/>
+			<storageModule moduleId="ilg.gnuarmeclipse.managedbuild.packs"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196" moduleId="org.eclipse.cdt.core.settings" name="Release_static_linux">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/libbo_crypto"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/libbo_crypto/Release_static"/>
+						<entry flags="NONE" kind="libraryFile" name="bo_crypto" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="Static version of library for linux" id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196" name="Release_static_linux" parent="cdt.managedbuild.config.gnu.so.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.release.435741942" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.release.1299635768" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.release"/>
+							<builder arguments="--silent" buildPath="${workspace_loc:/libbo_crypto}/Release_static" command="make" id="cdt.managedbuild.target.gnu.builder.so.release.57441751" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="false" superClass="cdt.managedbuild.target.gnu.builder.so.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.968372672" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.1989107531" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.release.1092929321" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.release">
+								<option id="gnu.cpp.compiler.so.release.option.optimization.level.1307728642" name="Optimization Level" superClass="gnu.cpp.compiler.so.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.so.release.option.debugging.level.1340232440" name="Debug Level" superClass="gnu.cpp.compiler.so.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.so.release.option.optimization.level.487346797" name="Optimization Level" superClass="gnu.c.compiler.so.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.c.compiler.so.release.option.debugging.level.603179670" name="Debug Level" superClass="gnu.c.compiler.so.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.278486752" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/mbedtls/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.1809412578" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.pic.1492651891" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.209371345" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.files.823071040" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="libsodium_config.h"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.other.985398568" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1472292325" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.release.161757547" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.release">
+								<option defaultValue="true" id="gnu.c.link.so.release.option.shared.181657538" name="Shared (-shared)" superClass="gnu.c.link.so.release.option.shared" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1834940582" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.release.913725410" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.release">
+								<option defaultValue="true" id="gnu.cpp.link.so.release.option.shared.1102953776" name="Shared (-shared)" superClass="gnu.cpp.link.so.release.option.shared" valueType="boolean"/>
+							</tool>
+							<tool command="gcc" id="cdt.managedbuild.tool.gnu.assembler.so.release.2108010003" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.release">
+								<option id="gnu.both.asm.option.include.paths.864370410" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option id="gnu.both.asm.option.flags.1396796671" name="Assembler flags" superClass="gnu.both.asm.option.flags" useByScannerDiscovery="false" value="-c -std=gnu99 -include libsodium_config.h" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1094825032" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.1614312943" name="hmac_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/hmac_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.461154455">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.461154455" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280">
+							<option id="gnu.c.compiler.option.misc.other.763326084" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1392850215" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.1432643953" name="entropy.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/entropy.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.1417310934">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.1417310934" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280">
+							<option id="gnu.c.compiler.option.misc.other.900306481" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.81742489" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.1195120678" name="ctr_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/ctr_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.571033318">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.571033318" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280">
+							<option id="gnu.c.compiler.option.misc.other.1474005395" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1152306629" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.295028894" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.643262804" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.293810090" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.1192103816" name="md.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/md.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.79517365">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.79517365" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280">
+							<option id="gnu.c.compiler.option.misc.other.1274906236" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1418112848" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.1692583571" name="utils.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/utils.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.1643576524">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.1643576524" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280">
+							<option id="gnu.c.compiler.option.misc.other.1754085569" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1334802998" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.1176105227" name="core.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/core.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.1773938750">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280.1773938750" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280">
+							<option id="gnu.c.compiler.option.misc.other.699782792" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.252857051" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487" moduleId="org.eclipse.cdt.core.settings" name="Debug_static_win32">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/libbo_crypto"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/libbo_crypto/Debug_static_win32"/>
+						<entry flags="NONE" kind="libraryFile" name="bo_crypto" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="Static version of library for windows" id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487" name="Debug_static_win32" parent="cdt.managedbuild.config.gnu.so.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.base.277165298" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.52227525" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder arguments="--silent" buildPath="${workspace_loc:/libbo_crypto}/Debug_static_win32" command="make" id="cdt.managedbuild.builder.gnu.cross.857565775" keepEnvironmentInBuildfile="false" name="Gnu Make Builder"/>
+							<tool command="gcc" id="cdt.managedbuild.tool.gnu.assembler.mingw.base.1559659141" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.flags.1577192336" name="Assembler flags" superClass="gnu.both.asm.option.flags" value="-c -std=gnu99 -include libsodium_config.h" valueType="string"/>
+								<option id="gnu.both.asm.option.include.paths.1780736430" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.407398266" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1062185153" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.1031370667" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.2134704246" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.optimization.level.173699393" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1675669610" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<option id="gnu.c.compiler.option.include.paths.396130228" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/mbedtls/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1320087452" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1233839440" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.1598184650" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.dialect.std.2102686880" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.files.775263970" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="libsodium_config.h"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.other.616374044" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1422801138" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.2058309300" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.462360474" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.209441520" name="hmac_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/hmac_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.220339493">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.220339493" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477">
+							<option id="gnu.c.compiler.option.misc.other.548353649" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.996232248" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.624748709" name="entropy.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/entropy.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.355137726">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.355137726" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477">
+							<option id="gnu.c.compiler.option.misc.other.1125680718" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.878056223" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.944300563" name="ctr_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/ctr_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.1434913275">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.1434913275" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477">
+							<option id="gnu.c.compiler.option.misc.other.1640000929" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1424187300" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.1429671297" name="md.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/md.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.692846739">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.692846739" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477">
+							<option id="gnu.c.compiler.option.misc.other.1995680845" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1588700214" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.1116335426" name="utils.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/utils.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.1297080750">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.1297080750" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477">
+							<option id="gnu.c.compiler.option.misc.other.1364100101" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1373200785" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.1374025522" name="core.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/core.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.904387690">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477.904387690" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477">
+							<option id="gnu.c.compiler.option.misc.other.1343464031" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2080212790" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="packages"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475" moduleId="org.eclipse.cdt.core.settings" name="Debug_dynamic_win32">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/libbo_crypto"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/libbo_crypto/Debug_dynamic_win32"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="libbo_crypto" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="dll" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="Dynamic version of the library for windows" id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475" name="Debug_dynamic_win32" parent="cdt.managedbuild.config.gnu.so.debug" postbuildStep="install -s &quot;${ProjDirPath}/${ConfigName}/${BuildArtifactFileName}&quot; &quot;${ProjDirPath}/../../binaries&quot;">
+					<folderInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.base.1948827625" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.751232853" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder arguments="--silent" buildPath="${workspace_loc:/libbo_crypto}/Debug_static_win32" command="make" id="cdt.managedbuild.builder.gnu.cross.857565775.1982196393" keepEnvironmentInBuildfile="false" name="Gnu Make Builder"/>
+							<tool command="gcc" id="cdt.managedbuild.tool.gnu.assembler.mingw.base.149767804" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.flags.2042990035" name="Assembler flags" superClass="gnu.both.asm.option.flags" useByScannerDiscovery="false" value="-c -std=gnu99 -include libsodium_config.h" valueType="string"/>
+								<option id="gnu.both.asm.option.include.paths.1429799625" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2116162673" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1917975984" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.1244524204" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.1574380156" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.optimization.level.1974290486" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1750017633" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<option id="gnu.c.compiler.option.include.paths.1105911932" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/mbedtls/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1017223860" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1155049850" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.std.1388586223" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.other.652342896" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.1278288896" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.files.1259852939" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="libsodium_config.h"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1407382553" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.1330285782" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base">
+								<option defaultValue="true" id="gnu.c.link.option.shared.1283019539" name="Shared (-shared)" superClass="gnu.c.link.option.shared" useByScannerDiscovery="false" valueType="boolean"/>
+								<option id="gnu.c.link.option.ldflags.2094879379" name="Linker flags" superClass="gnu.c.link.option.ldflags" useByScannerDiscovery="false" value="" valueType="string"/>
+								<option id="gnu.c.link.option.libs.965698146" name="Libraries (-l)" superClass="gnu.c.link.option.libs" useByScannerDiscovery="false"/>
+								<option id="gnu.c.link.option.implname.1020449388" name="Import Library name (-Wl,--out-implib=)" superClass="gnu.c.link.option.implname" useByScannerDiscovery="false" value="" valueType="string"/>
+								<option id="gnu.c.link.option.noshared.1232842301" name="No shared libraries (-static)" superClass="gnu.c.link.option.noshared" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1306203411" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+								<outputType id="cdt.managedbuild.tool.gnu.c.linker.mingw.so.output.base.1976443762" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.so.output.base"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.307815052" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base">
+								<option defaultValue="true" id="gnu.cpp.link.option.shared.334265254" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" valueType="boolean"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2028373163" name="hmac_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/hmac_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.871376001">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.871376001" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434">
+							<option id="gnu.c.compiler.option.misc.other.312897441" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1229028733" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.1693828368" name="entropy.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/entropy.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.91239467">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.91239467" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434">
+							<option id="gnu.c.compiler.option.misc.other.834734647" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.111272775" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.587503541" name="ctr_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/ctr_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.1741297585">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.1741297585" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434">
+							<option id="gnu.c.compiler.option.misc.other.791905523" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.771156651" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.812661841" name="md.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/md.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.342891731">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.342891731" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434">
+							<option id="gnu.c.compiler.option.misc.other.1336464033" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.667264457" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.1684619325" name="utils.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/utils.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.812674000">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.812674000" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434">
+							<option id="gnu.c.compiler.option.misc.other.850745061" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1718564637" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.1336006215" name="core.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/core.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.1964947668">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434.1964947668" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434">
+							<option id="gnu.c.compiler.option.misc.other.1743428857" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.239292566" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="packages"/>
+			<storageModule moduleId="ilg.gnuarmeclipse.managedbuild.packs"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549" moduleId="org.eclipse.cdt.core.settings" name="Release_dynamic_win32">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/libbo_crypto"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/libbo_crypto/Release_dynamic_win32"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="libbo_crypto" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="dll" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="Dynamic version of the library for windows" errorParsers="org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549" name="Release_dynamic_win32" parent="cdt.managedbuild.config.gnu.so.debug" postannouncebuildStep="" postbuildStep="install -s &quot;${ProjDirPath}/${ConfigName}/${BuildArtifactFileName}&quot; &quot;${ProjDirPath}/../../binaries&quot;" preannouncebuildStep="" prebuildStep="">
+					<folderInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549." name="/" resourcePath="">
+						<toolChain errorParsers="" id="cdt.managedbuild.toolchain.gnu.mingw.base.523651452" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.2034719628" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder arguments="--silent" buildPath="${workspace_loc:/libbo_crypto}/Debug_static_win32" command="make" errorParsers="" id="cdt.managedbuild.builder.gnu.cross.857565775.1982196393.1549237663" keepEnvironmentInBuildfile="false" name="Gnu Make Builder"/>
+							<tool command="gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GASErrorParser" id="cdt.managedbuild.tool.gnu.assembler.mingw.base.2072313655" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.flags.1445526269" name="Assembler flags" superClass="gnu.both.asm.option.flags" useByScannerDiscovery="false" value="-c -std=gnu99 -include libsodium_config.h" valueType="string"/>
+								<option id="gnu.both.asm.option.include.paths.2064665761" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.926221172" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.2096958450" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base">
+								<outputType id="cdt.managedbuild.tool.gnu.archiver.output.1836494859" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.archiver.output"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.2056463883" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.optimization.level.1691253157" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.698745684" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool command="gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<option id="gnu.c.compiler.option.include.paths.1532134301" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/mbedtls/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include/sodium}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/third_party_crypto/libsodium/include}&quot;"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.757281881" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.c.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.2116252813" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.std.1766124812" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.other.1597914920" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.1521628901" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.include.files.1601025917" name="Include files (-include)" superClass="gnu.c.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles">
+									<listOptionValue builtIn="false" value="libsodium_config.h"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1655817971" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool command="gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.849627260" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base">
+								<option defaultValue="true" id="gnu.c.link.option.shared.255456284" name="Shared (-shared)" superClass="gnu.c.link.option.shared" useByScannerDiscovery="false" valueType="boolean"/>
+								<option id="gnu.c.link.option.ldflags.1775079795" name="Linker flags" superClass="gnu.c.link.option.ldflags" useByScannerDiscovery="false" value="" valueType="string"/>
+								<option id="gnu.c.link.option.libs.538699878" name="Libraries (-l)" superClass="gnu.c.link.option.libs" useByScannerDiscovery="false"/>
+								<option id="gnu.c.link.option.implname.1247755932" name="Import Library name (-Wl,--out-implib=)" superClass="gnu.c.link.option.implname" useByScannerDiscovery="false" value="" valueType="string"/>
+								<option id="gnu.c.link.option.noshared.918442145" name="No shared libraries (-static)" superClass="gnu.c.link.option.noshared" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.321718881" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+								<outputType id="cdt.managedbuild.tool.gnu.c.linker.mingw.so.output.base.1401126950" outputPrefix="" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.so.output.base"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.400298457" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base">
+								<option defaultValue="true" id="gnu.cpp.link.option.shared.1306596925" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" valueType="boolean"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549.1804338286" name="hmac_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/hmac_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.59178861">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.59178861" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195">
+							<option id="gnu.c.compiler.option.misc.other.1583199080" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1709459382" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549.1386221146" name="entropy.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/entropy.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.906223548">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.906223548" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195">
+							<option id="gnu.c.compiler.option.misc.other.220366710" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.659018906" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549.1813224929" name="ctr_drbg.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/ctr_drbg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.1515314182">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.1515314182" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195">
+							<option id="gnu.c.compiler.option.misc.other.2124255320" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.105635007" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549.761253046" name="md.c" rcbsApplicability="disable" resourcePath="third_party_crypto/mbedtls/src/md.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.1953742613">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.1953742613" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195">
+							<option id="gnu.c.compiler.option.misc.other.255428245" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-int-conversion -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1606607725" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549.48354230" name="utils.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/utils.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.534211394">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.534211394" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195">
+							<option id="gnu.c.compiler.option.misc.other.1752091255" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1183461056" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549.1825594243" name="core.c" rcbsApplicability="disable" resourcePath="third_party_crypto/libsodium/sodium/core.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.1628682146">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195.1628682146" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195">
+							<option id="gnu.c.compiler.option.misc.other.1381699076" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -Wno-implicit-function-declaration -Wno-unknown-pragmas -Wno-strict-aliasing -maes -mssse3" valueType="string"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2067192721" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="packages"/>
+			<storageModule moduleId="ilg.gnuarmeclipse.managedbuild.packs"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="libbo_crypto.null.982836559" name="libbo_crypto"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.release.259141153.1201085196;cdt.managedbuild.config.gnu.so.release.259141153.1201085196.;cdt.managedbuild.tool.gnu.c.compiler.so.release.269033280;cdt.managedbuild.tool.gnu.c.compiler.input.1472292325">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.debug.360188983;cdt.managedbuild.config.gnu.so.debug.360188983.;cdt.managedbuild.tool.gnu.c.compiler.so.debug.1231886288;cdt.managedbuild.tool.gnu.c.compiler.input.1729021861">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.debug.1017610180;cdt.managedbuild.config.gnu.so.debug.1017610180.;cdt.managedbuild.tool.gnu.c.compiler.so.debug.827054561;cdt.managedbuild.tool.gnu.c.compiler.input.566589775">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487;cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.993505477;cdt.managedbuild.tool.gnu.c.compiler.input.1422801138">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549;cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.2129322549.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.363823195;cdt.managedbuild.tool.gnu.c.compiler.input.1655817971">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.release.112400086;cdt.managedbuild.config.gnu.so.release.112400086.;cdt.managedbuild.tool.gnu.c.compiler.so.release.498260476;cdt.managedbuild.tool.gnu.c.compiler.input.452132911">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.release.259141153;cdt.managedbuild.config.gnu.so.release.259141153.;cdt.managedbuild.tool.gnu.c.compiler.so.release.803743943;cdt.managedbuild.tool.gnu.c.compiler.input.957476282">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620;cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.;cdt.managedbuild.tool.gnu.c.compiler.so.debug.655052349;cdt.managedbuild.tool.gnu.c.compiler.input.1747791476">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475;cdt.managedbuild.config.gnu.so.debug.360188983.1531089620.78330487.633373475.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1132771434;cdt.managedbuild.tool.gnu.c.compiler.input.1407382553">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728;cdt.managedbuild.config.gnu.so.release.259141153.1201085196.777921728.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.914341723;cdt.managedbuild.tool.gnu.c.compiler.input.1454680236">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>

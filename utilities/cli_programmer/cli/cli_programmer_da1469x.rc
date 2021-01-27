@@ -1,0 +1,7 @@
+#include "cli_programmer_common.rc"
+
+#ifdef _DEBUG
+UARTBOOT BINARY_DATA "../../../sdk/bsp/system/loaders/uartboot/DA1469x-00_Debug/uartboot.bin"
+#else
+UARTBOOT BINARY_DATA "../../../sdk/bsp/system/loaders/uartboot/DA1469x-00_Release/uartboot.bin"
+#endif

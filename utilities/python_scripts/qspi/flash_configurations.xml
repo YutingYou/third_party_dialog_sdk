@@ -1,0 +1,26 @@
+<flash_configurations>
+  <configuration name="MX25U3235F">
+    <flash_size>0x400000</flash_size>
+    <flash_burstcmda_reg_value>0xa8a500eb</flash_burstcmda_reg_value>
+    <flash_burstcmdb_reg_value>0x00000066</flash_burstcmdb_reg_value>
+    <flash_write_config_command>0x01 0x40 0x07</flash_write_config_command>
+  </configuration>
+  <configuration name="W25Q32FW">
+    <flash_size>0x400000</flash_size>
+    <flash_burstcmda_reg_value>0xa82000eb</flash_burstcmda_reg_value>
+    <flash_burstcmdb_reg_value>0x00000066</flash_burstcmdb_reg_value>
+    <flash_write_config_command>0x31 0x02 0x07</flash_write_config_command>
+  </configuration>
+  <configuration name="AT25SL321">
+    <flash_size>0x400000</flash_size>
+    <flash_burstcmda_reg_value>0xa8a000eb</flash_burstcmda_reg_value>
+    <flash_burstcmdb_reg_value>0x00000066</flash_burstcmdb_reg_value>
+    <flash_write_config_command>0x31 0x02 0x07</flash_write_config_command>
+  </configuration>
+  <configuration name="GD25LE32">
+    <flash_size>0x400000</flash_size>
+    <flash_burstcmda_reg_value>0xa82000eb</flash_burstcmda_reg_value>
+    <flash_burstcmdb_reg_value>0x00000066</flash_burstcmdb_reg_value>
+    <flash_write_config_command>0x01 0x00 0x02 0x07</flash_write_config_command>
+  </configuration>
+</flash_configurations>
